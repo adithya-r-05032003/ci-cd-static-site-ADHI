@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Static Site – Adithya</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f7f9fc;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #005eff;
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: 400;
+            margin-top: 0;
+            color: #4b4b4b;
+        }
+
+        .section-title {
+            font-size: 20px;
+            margin-top: 40px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        ul {
+            margin-top: 12px;
+            line-height: 1.7;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            font-size: 14px;
+            color: #555;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>CI/CD Pipeline Demo</h1>
+        <h3>Created by Adithya</h3>
+
+        <p>
+            This project demonstrates how a simple static website can be automatically validated, 
+            checked, built, and deployed using a modern DevOps CI/CD pipeline powered by GitHub Actions.
+        </p>
+
+        <div class="section-title">✔ Git Workflow Used</div>
+        <ul>
+            <li>Create Repository</li>
+            <li>Create <b>develop</b> branch</li>
+            <li>Add Files & Make Code Changes</li>
+            <li>Commit & Push</li>
+            <li>Create Pull Request (develop → main)</li>
+            <li>Merge PR</li>
+        </ul>
+
+        <div class="section-title">✔ CI/CD Pipeline Stages</div>
+        <ul>
+            <li>Stage 1 — Code Checkout</li>
+            <li>Stage 2 — Syntax Validation</li>
+            <li>Stage 3 — Link Checking</li>
+            <li>Stage 4 — Build Preview</li>
+            <li>Stage 5 — Deployment to GitHub Pages</li>
+        </ul>
+
+        <p style="margin-top: 25px;">
+            After these steps are completed, GitHub Pages hosts this website live using automated workflows.
+        </p>
+
+        <div class="footer">
+            © 2025 CI/CD Static Site — Adithya  
+        </div>
+    </div>
+
+</body>
+</html>
